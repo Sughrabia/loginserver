@@ -30,7 +30,7 @@ mongoose.connect(uri, {
     });
 
 app.get('/', (req, res) => {
-    res.send('Group 1 - Members: Alice, Bob, Charlie - Project: Multi-Server Architecture');
+    res.send('Group - Members: Sughra Bibi, Khadija , Memona khushi - Project: DressDynamo (Departmental-store)');
 });
 
 
