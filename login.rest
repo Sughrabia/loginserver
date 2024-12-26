@@ -1,4 +1,4 @@
-GET http://localhost:10000/
+GET http://localhost:5000/
 
 ###
 GET http://192.168.18.136:8000/
@@ -7,7 +7,7 @@ GET http://192.168.18.136:8000/
 GET http://192.168.18.136:8000/all 
 
 ###
-GET http://192.168.18.136:8000/read?email=ali@gmail.com
+GET http://192.168.18.136:000/read?email=ali@gmail.com
 
 ###
 GET http://192.168.18.136:8000/create?name=wxy&email=wxy@gmail.com&password=wxy
@@ -15,14 +15,14 @@ GET http://192.168.18.136:8000/create?name=wxy&email=wxy@gmail.com&password=wxy
 //===========================================================================
 
 ###
-GET http://localhost:10000/
+GET http://localhost:5000/
 
 ###
-GET http://localhost:10000/register?name=ali&email=ali@gmail.com&password=ali 
+GET http://localhost:5000/register?name=ali&email=ali@gmail.com&password=ali 
 
 ###
-GET http://localhost:10000/login?email=ali@gmail.com&password=ali
+GET http://localhost:5000/login?email=ali@gmail.com&password=ali
 
 ###
-GET http://localhost:10000/data 
+GET http://localhost:5000/data 
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImFsaUBnbWFpbC5jb20iLCJpYXQiOjE3MTEwOTU4NzcsImV4cCI6MTcxMTA5OTQ3N30.kfsLFbjwGn-ccI8QJug3j7G73KjsH2VauURCV3zhSco
