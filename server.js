@@ -34,9 +34,9 @@ app.get('/', (req, res) => {
 });
 
 
-const loginRouter= require ('./routers/api')
+const loginRouter= require ('./routers/login')
 
-app.use('/login', loginRouter) 
+app.use('/api', loginRouter) 
 
 app.listen(5000, () => {
     console.log('Server is running on port 5000');
