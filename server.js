@@ -34,7 +34,7 @@ app.get('/', (req, res) => {
 });
 
 
-const loginRouter= require ('./routers/login')
+const loginRouter= require ('./routers/api')
 
 app.use('/login', loginRouter) 
 
